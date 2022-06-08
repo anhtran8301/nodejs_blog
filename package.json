@@ -1,0 +1,33 @@
+{
+  "name": "nodejs_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lamchucuocfuck/nodejs_blog.git"
+  },
+  "keywords": [
+    "fullstack",
+    "blog",
+    "f8",
+    "nodejs",
+    "nodejs_blog"
+  ],
+  "author": "ttanh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lamchucuocfuck/nodejs_blog/issues"
+  },
+  "homepage": "https://github.com/lamchucuocfuck/nodejs_blog#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
